@@ -1,0 +1,48 @@
+/* add your CSS here */
+html {
+    box-sizing: border-box;
+  }
+ *,*:before,*:after {
+  box-sizing: inherit;
+}
+
+body {
+  width: 350px;
+  margin: 0 auto;
+  background: lightgray;
+}
+img { box-sizing: content-box; }
+
+ul {
+  padding: 0;
+}
+
+ul li {
+  list-style-type: none;
+}
+
+li span {
+  font-weight: bold;
+}
+.card-fact {
+  font-style: italic;
+}
+
+
+.main-layout {
+  padding: 10px 15px 15px 10px;
+  background-color: white;
+}
+
+.card-layout {
+  border: 1px solid lightgray;
+  max-width: 322px;
+  padding: 10px;
+  box-shadow: 5px 5px 2px lightgray;
+  background-color: white;
+}
+
+.card-desc {
+  border: 1px solid lightgray;
+  padding: 10px;
+}

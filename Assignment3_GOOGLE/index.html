@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Google Search</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+  <body>
+    <div class="main-layout">
+      <h1><span style="color:#0057e7;">G</span><span style="color: #d62d20;">O</span><span style="color:#ffa700;">O</span><span style="color:#0057e7;">G</span><span style="color: #d62d20;">L</span><span style="color: #d62d20;">E</span> SEARCH</h1>
+      <!-- SEARCH AREA -->
+      <script>
+        function submitSearch(pSearchWord) {
+          document.getElementById("search-text").value = pSearchWord;
+          document.forms[0].submit(); 
+      }
+      </script>
+      <form method="GET"  action="https://www.google.com/search" class="search-form">
+        <input id="search-text" size="50" name="q" class="input-form">
+        <button value="Search" class="search-btn">Search Me</button>
+        <p>I am feeling very <a href="javascript:void(0)" onclick="submitSearch('happy')">happy</a>, <a href="javascript:void(0)" onclick="submitSearch('energetic')">energetic</a>, ...</p>
+      </form>
+    </div>  
+  </body>
+</html>

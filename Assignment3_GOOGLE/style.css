@@ -1,0 +1,41 @@
+/* add your CSS here */
+/* add your CSS here */
+html {
+    box-sizing: border-box;
+  }
+ *,*:before,*:after {
+  box-sizing: inherit;
+}
+
+body {
+display: table;
+height: 100%;
+width: 100%;
+position: absolute;
+}
+
+.main-layout {
+    padding:20px;
+    background-color: white;
+    text-align: center;
+    vertical-align: middle;
+    display: table-cell;
+  }
+
+.search-btn {
+    background-color: white;
+    color: black;
+    padding: 16px;
+    font-size: 12px;
+    border: 1px solid lightgrey;
+    cursor: pointer;
+    border-radius: 4px;
+}
+.search-btn:hover {
+    background-color: #999999;
+}
+
+.input-form {
+    padding: 14px;
+    font-size: 12px;
+  }
